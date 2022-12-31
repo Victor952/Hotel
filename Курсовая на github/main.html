@@ -1,0 +1,94 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"> <!--кодировка-->
+        <title>Главная</title> <!--название вкладки в браузере-->
+        <style>
+            .image{
+                float:left;
+                width: 320px;
+                height: 20em;
+            }
+            #link {
+                background-color: rgb(248, 241, 241);
+                height: 40px;
+            }
+            #link ul {
+                margin-left: 25px;
+                margin-right: 25px;
+                list-style: none;
+            }
+            #link li {
+                float: left;
+            }
+            #link ul a {
+                display: block;
+                width: 7em;
+                padding: 10px;
+                border-left: 1px solid #ccc;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            #link ul li:last-child a {
+                border-right: 1px solid #ccc;
+            }
+            #link ul a:hover{
+                background-color: #aaa;
+                color: #f4f4f4;
+            }
+            #link ul:after {
+                content: " ";
+                display: table;
+                clear: both;
+            }
+            #header h1 {
+                font-size: 35px;
+                margin-left: 50px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 10px;
+                clear: both;
+            }
+            #description p {
+                margin-left: 350px;
+                background-color: #fafafa;
+                padding: 10px;
+                width: 80%;
+            }
+            #description, #address{
+                margin-left: 30px;
+                margin-right: 20px;
+            }
+            #description:after {
+                clear: both;
+                display: table;
+                content: '';
+            }
+        </style>
+    </head>
+    <body>
+        <div id="link">
+        <ul>
+            <li><a href="rooms.html" target="_blank">Номера</a></li>
+        </ul>
+        </div>
+        <div id="header"><h1><span style="color: red; ">Гостиница Центральная</span></h1></div>
+        <div id="description">
+            <h2>Описание</h2>
+            <img src="Картинки\Ресепшен.jpg" class="image" style="clear: left" alt="Ресепшен" style="float:left; margin-right:20px;"/>
+            <p>Индивидуальный подход к каждому клиенту, cовременные технологии и комфортные условия проживания – 
+                всё это есть в гостинице «Центральная» категории "3 звезды".</p>
+            <p>«Центральная» сегодня - это динамично развивающийся гостиничный комплекс, идущий в ногу со временем. Все 192 номера современно оборудованы (кровать, ванная, тумбочка, постельное бельё - в каждом номере).
+                Мы создадим для вас неповторимую домащнюю атмосферу. В этом секрет нашего успеха сегодня и гарантия развития в будущем.</p>
+            <p>За вопросами обращайтесь на стойку регистрации (ресепшен): там вы можете узнать всю важную для себя информацию,
+                забронировать или купить место в гостинице, расчитаться за номер или другие услуги, а также заказать еду в номер.</p>
+        </div>
+        <div id="address">
+            <h2>Адрес гостиницы</h2>
+            <img src="Картинки\Адрес.jpg" class="image" style="clear: left; width: 1000px; height: 40em;" alt="Ресепшен" style="float:left; margin-right:20px;"/>
+            <p style="margin-left: 1020px">Мы располагаемся по адресу: Красноярский край, г. Железногорск, ул. Ленина, 25</p>
+            <p style="margin-left: 1020px">Рядом с гостиницей имеются дворец культуры, банк, различные магазины. В этом же районе есть парк и пляж с искусственным водоёмом.</p>
+        </div>
+    </body>
+</html>

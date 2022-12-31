@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"> <!--кодировка-->
+        <title>Бронирование</title> <!--название вкладки в браузере-->
+        <style>
+            #book{
+                margin-left: 50px;
+                font-size: 21px;
+                width: 170px;
+                height: 30px;
+                float: down;
+            }
+            #header h1 {
+                font-size: 35px;
+                margin-left: 50px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 10px;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header"><h1><span style="color: red; ">Гостиница Центральная</span></h1></div>
+        <div style="text-align: center;">
+            <h1>Забронируйте номер!</h1>
+            <h2>Заполните поля ниже</h2>
+        </div> <!--заголовок-->
+        <form method="POST" action="display.php" style="text-align: center;">
+            <p>
+                <label for="room">Тип комнаты</label>
+                <input list="Тип комнаты" id="room" type="text" name="Тип комнаты">
+                <datalist id="Тип комнаты">
+                    <option value="Двухместный люкс"></option>
+                    <option value="Двухместный стандарт"></option>
+                    <option value="Двухместный эконом"></option>
+                    <option value="Одноместный люкс"></option>
+                    <option value="Четырёхместный стандарт для семьи с детьми"></option>
+                </datalist>
+            </p>
+            <p>
+                <label for="surname">Фамилия:</label>
+                <input type="text" id="surname" name="Фамилия"/>
+            </p>
+            <p>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="Имя"/>
+            </p>
+            <p>
+                <label for="patronymic">Отчество:</label>
+                <input type="text" id="patronymic" name="Отчество" placeholder="При наличии"/>
+            </p>
+            <p>
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="Телефон" placeholder="+7"/>
+            </p>
+            <p>
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="Электронная почта"/>
+            </p>
+            <p>
+                <label for="date">Дата заезда:</label>
+                <input type="date" id="date" name="Дата заезда"/>
+            </p>
+            <p>
+                <label for="time">Приблизительное время заезда:</label>
+                <input type="time" id="time" name="Приблизительное время заезда"/>
+            </p>
+            <p>
+                <label for="date">Дата выезда:</label>
+                <input type="date" id="date" name="Дата выезда"/>
+            </p>
+            <p>
+                <label for="time">Приблизительное время выезда:</label>
+                <input type="time" id="time" name="Приблизительное время выезда"/>
+            </p>
+            <p>
+                <label for="pay">Способ оплаты:</label>
+                <input list="Способ оплаты" id="pay" type="text" name="Способ оплаты">
+                <datalist id="Способ оплаты">
+                    <option value="Картой"></option>
+                    <option value="Наличными"></option>
+                </datalist>
+            </p>
+            <button type="submit" id="book">Отправить</button>
+        </form>
+    </body>
+</html>

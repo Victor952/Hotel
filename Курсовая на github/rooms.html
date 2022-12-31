@@ -1,0 +1,290 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"> <!--кодировка-->
+        <title>Номера</title> <!--название вкладки в браузере-->
+        <style>
+            a:link{color: green;text-decoration: none;}
+            .image {
+                float: left;
+                width: 324px;
+                height: 18em;
+            }
+            #link {
+                background-color: rgb(248, 241, 241);
+                height: 40px;
+            }
+            #link ul {
+                margin-left: 25px;
+                margin-right: 25px;
+                list-style: none;
+            }
+            #link li {
+                float: left;
+            }
+            #link ul a {
+                display: block;
+                width: 7em;
+                padding: 10px;
+                border-left: 1px solid #ccc;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            #link ul li:last-child a {
+                border-right: 1px solid #ccc;
+            }
+            #link ul a:hover{
+                background-color: #aaa;
+                color: #f4f4f4;
+            }
+            #link ul:after {
+                content: " ";
+                display: table;
+                clear: both;
+            }
+            #header h1 {
+                font-size: 35px;
+                margin-left: 50px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 10px;
+                clear: both;
+            }
+            #block {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 215px;
+                border: 1px solid black;
+                font-size: 20px;
+                width: 625px;
+                height: 174px;
+                align-content: flex-start;
+            }
+            #text{
+                margin-left: 215px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .conveniences {
+                text-align: center;
+                font-size: 18px;
+                padding: 4px;
+                color: black;
+            }
+            .blocks{
+                background-color: #b6ff00;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+            }
+            #book{
+                margin-left: 50px;
+                font-size: 21px;
+                width: 170px;
+                height: 30px;
+            }
+            h2, p{
+                margin-left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="link">
+            <ul>
+                <li><a href="main.html" target="_blank">Главная</a></li>
+            </ul>
+            </div>
+        <div>
+        <div id="header"><h1><span style="color: red; ">Гостиница Центральная</span></h1></div>
+        <h2>Наши номера</h2>
+            <p>
+                <a href="Картинки\Двухместный люкс\1.jpg">
+                    <img src="Картинки\Двухместный люкс\1.jpg" class="image" style="float: left; margin-right:10px;" alt="1" />
+                </a>
+                <a href="Картинки\Двухместный люкс\2.jpg">
+                    <img src="Картинки\Двухместный люкс\2.jpg" class="image" style="float: left; margin-right:10px;" alt="2" />
+                </a>
+                <a href="Картинки\Двухместный люкс\3.jpg">
+                    <img src="Картинки\Двухместный люкс\3.jpg" class="image" style="float: left; margin-right:10px;" alt="3" />
+                </a>
+                <summary><h2 id="text">Двухместный люкс</h2></summary>
+                <summary><p id="text">5200 ₽<button type="submit" id="book"><a href="booking.html" target="_blank">Забронировать</a></button></p></summary>
+                <div id="block">
+                    <div class="conveniences blocks">Холодильник</div>
+                    <div class="conveniences blocks">Журнальный столик</div>
+                    <div class="conveniences blocks">LCD-телевизор</div>
+                    <div class="conveniences blocks">Письменный стол и стул</div>
+                    <div class="conveniences blocks">Две прикраватных тумбочки</div>
+                    <div class="conveniences blocks">Халаты и тапочки</div>
+                    <div class="conveniences blocks">Сейф</div>
+                    <div class="conveniences blocks">Чайник</div>
+                    <div class="conveniences blocks">Телефон</div>
+                    <div class="conveniences blocks">Фен</div>
+                    <div class="conveniences blocks">Микроволновка</div>
+                    <div class="conveniences blocks">Утюг</div>
+                    <div class="conveniences blocks">Шкаф</div>
+                    <div class="conveniences blocks">2 комплекта из 2 полотенец</div>
+                    <div class="conveniences blocks">Ванная комната</div>
+                    <div class="conveniences blocks">Минибар</div>
+                    <div class="conveniences blocks">Душ</div>
+                    <div class="conveniences blocks">Двуспальная кровать</div>
+                    <div class="conveniences blocks">Постельное бельё</div>
+                    <div class="conveniences blocks">Зеркало</div>
+                    <div class="conveniences blocks">Отопление</div>
+                    <div class="conveniences blocks">Окно</div>
+                    <div class="conveniences blocks">Затемнённые шторы</div>
+                    <div class="conveniences blocks">Вентилятор</div>
+                    <div class="conveniences blocks">Москитная сетка</div>
+                    <div class="conveniences blocks">Бесплатный Wi-fi</div>
+                </div>
+            </p>
+            <p>
+                <a href="Картинки\Двухместный стандарт\1.jpg">
+                    <img src="Картинки\Двухместный стандарт\1.jpg" class="image" style="float: left; margin-right:10px;" alt="1" />
+                </a>
+                <a href="Картинки\Двухместный стандарт\2.jpg">
+                    <img src="Картинки\Двухместный стандарт\2.jpg" class="image" style="float: left; margin-right:10px;" alt="2" />
+                </a>
+                <a href="Картинки\Двухместный стандарт\3.jpg">
+                    <img src="Картинки\Двухместный стандарт\3.jpg" class="image" style="float: left; margin-right:10px;" alt="3" />
+                </a>
+                <summary><h3 id="text">Двухместный стандарт</h3></summary>
+                <summary><p id="text">3000 ₽ <button type="submit" id="book"><a href="booking.html" target="_blank">Забронировать</a></button></p></summary>
+                <div id="block">
+                    <div class="conveniences blocks">Холодильник</div>
+                    <div class="conveniences blocks">Журнальный столик</div>
+                    <div class="conveniences blocks">LCD-телевизор</div>
+                    <div class="conveniences blocks">Письменный стол и стул</div>
+                    <div class="conveniences blocks">Две прикраватных тумбочки</div>
+                    <div class="conveniences blocks">Постельное бельё</div>
+                    <div class="conveniences blocks">Отопление</div>
+                    <div class="conveniences blocks">Халаты и тапочки</div>
+                    <div class="conveniences blocks">2 комплекта из 2 полотенец</div>
+                    <div class="conveniences blocks">Ванная комната</div>
+                    <div class="conveniences blocks">Шкаф</div>
+                    <div class="conveniences blocks">Минибар</div>
+                    <div class="conveniences blocks">Душ</div>
+                    <div class="conveniences blocks">2 кровати</div>
+                    <div class="conveniences blocks">Телефон</div>
+                    <div class="conveniences blocks">Окно</div>
+                    <div class="conveniences blocks">Зеркало</div>
+                    <div class="conveniences blocks">Вентилятор</div>
+                    <div class="conveniences blocks">Затемнённые шторы</div>
+                    <div class="conveniences blocks">Бесплатный Wi-fi</div>
+                    <div class="conveniences blocks">Москитная сетка</div>
+                    <div class="conveniences blocks">Чайник</div>
+                    <div class="conveniences blocks">Фен</div>
+                </div>
+            </p>
+            <p>
+                <a href="Картинки\Двухместный эконом\1.jpg">
+                    <img src="Картинки\Двухместный эконом\1.jpg" class="image" style="float: left; margin-right:10px;" alt="1" />
+                </a>
+                <a href="Картинки\Двухместный эконом\2.jpg">
+                    <img src="Картинки\Двухместный эконом\2.jpg" class="image" style="float: left; margin-right:10px;" alt="2" />
+                </a>
+                <a href="Картинки\Двухместный эконом\3.jpg">
+                    <img src="Картинки\Двухместный эконом\3.jpg" class="image" style="float: left; margin-right:10px;" alt="3" />
+                </a>
+                <summary><h3 id="text">Двухместный эконом</h3></summary>
+                <summary><p id="text">2400 ₽ <button type="submit" id="book"><a href="booking.html" target="_blank">Забронировать</a></button></p></summary>
+                <div id="block">
+                    <div class="conveniences blocks">2 кровати</div>
+                    <div class="conveniences blocks">Журнальный столик</div>
+                    <div class="conveniences blocks">Письменный стол и стул</div>
+                    <div class="conveniences blocks">Окно</div>
+                    <div class="conveniences blocks">Платный Wi-fi</div>
+                    <div class="conveniences blocks">Две прикраватных тумбочки</div>
+                    <div class="conveniences blocks">Комплект посуды и столовых приборов</div>
+                    <div class="conveniences blocks">Чайник</div>
+                    <div class="conveniences blocks">Телевизор</div>
+                    <div class="conveniences blocks">1 комплект из 2 полотенец</div>
+                    <div class="conveniences blocks">Отопление</div>
+                    <div class="conveniences blocks">Постельное бельё</div>
+                    <div class="conveniences blocks">Зеркало</div>
+                    <div class="conveniences blocks">Шкаф</div>
+                    <div class="conveniences blocks">Ванная комната</div>
+                </div>
+            </p>
+            <p>
+                <a href="Картинки\Одноместный люкс\1.jpg">
+                    <img src="Картинки\Одноместный люкс\1.jpg" class="image" style="float: left; margin-right:10px;" alt="1" />
+                </a>
+                <a href="Картинки\Одноместный люкс\2.jpg">
+                    <img src="Картинки\Одноместный люкс\2.jpg" class="image" style="float: left; margin-right:10px;" alt="2" />
+                </a>
+                <a href="Картинки\Одноместный люкс\3.jpg">
+                    <img src="Картинки\Одноместный люкс\3.jpg" class="image" style="float: left; margin-right:10px;" alt="3" />
+                </a>
+                <summary><h3 id="text">Одноместный люкс</h3></summary>
+                <summary><p id="text">3500 ₽ <button type="submit" id="book"><a href="booking.html" target="_blank">Забронировать</a></button></p></summary>
+                <div id="block">
+                    <div class="conveniences blocks">Холодильник</div>
+                    <div class="conveniences blocks">Журнальный столик</div>
+                    <div class="conveniences blocks">LCD-телевизор</div>
+                    <div class="conveniences blocks">Письменный стол и стул</div>
+                    <div class="conveniences blocks">Прикраватная тумбочка</div>
+                    <div class="conveniences blocks">Постельное бельё</div>
+                    <div class="conveniences blocks">Отопление</div>
+                    <div class="conveniences blocks">Халат и тапочки</div>
+                    <div class="conveniences blocks">Комплект из 2 полотенец</div>
+                    <div class="conveniences blocks">Ванная комната</div>
+                    <div class="conveniences blocks">Шкаф</div>
+                    <div class="conveniences blocks">Минибар</div>
+                    <div class="conveniences blocks">Душ</div>
+                    <div class="conveniences blocks">Кровать</div>
+                    <div class="conveniences blocks">Телефон</div>
+                    <div class="conveniences blocks">Окно</div>
+                    <div class="conveniences blocks">Зеркало</div>
+                    <div class="conveniences blocks">Вентилятор</div>
+                    <div class="conveniences blocks">Затемнённые шторы</div>
+                    <div class="conveniences blocks">Бесплатный Wi-fi</div>
+                    <div class="conveniences blocks">Москитная сетка</div>
+                    <div class="conveniences blocks">Чайник</div>
+                    <div class="conveniences blocks">Фен</div>
+                </div>
+            </p>
+            <p>
+                <a href="Картинки\Стандарт для семьи с детьми\1.jpg">
+                    <img src="Картинки\Стандарт для семьи с детьми\1.jpg" class="image" style="float: left; margin-right:10px;" alt="1" />
+                </a>
+                <a href="Картинки\Стандарт для семьи с детьми\2.jpg">
+                    <img src="Картинки\Стандарт для семьи с детьми\2.jpg" class="image" style="float: left; margin-right:10px;" alt="2" />
+                </a>
+                <a href="Картинки\Стандарт для семьи с детьми\3.jpg">
+                    <img src="Картинки\Стандарт для семьи с детьми\3.jpg" class="image" style="float: left; margin-right:10px;" alt="3" />
+                </a>
+                <summary><h3 id="text">Четырёхместный стандарт для семьи с детьми</h3></summary>
+                <summary><p id="text">7200 ₽ - <span style="font-weight: normal">один ребёнок</span>, 9000 - <span style="font-weight: normal">два <button type="submit" id="book">
+                    <a href="booking.html" target="_blank">Забронировать</a></button></span></p></summary>
+                <div id="block" style="width: 676px; height: 175px;">
+                    <div class="conveniences blocks">Затемнённые шторы</div>
+                    <div class="conveniences blocks">Постельное бельё на каждой кровати</div>
+                    <div class="conveniences blocks">Микроволновка</div>
+                    <div class="conveniences blocks">Телефон</div>
+                    <div class="conveniences blocks">Журнальный столик</div>
+                    <div class="conveniences blocks">Халаты и тапочки</div>
+                    <div class="conveniences blocks">Тумбочка у каждой кровати</div>
+                    <div class="conveniences blocks">Отопление</div>
+                    <div class="conveniences blocks">Душ</div>
+                    <div class="conveniences blocks">Двуспальная кровать и 2 обычных кровати</div>
+                    <div class="conveniences blocks">Письменный стол и стул</div>
+                    <div class="conveniences blocks">Чайник</div>
+                    <div class="conveniences blocks">Кухня</div>
+                    <div class="conveniences blocks">Холодильник</div>
+                    <div class="conveniences blocks">Бесплатный Wi-fi</div>
+                    <div class="conveniences blocks">3-4 комплекта из 2 полотенец</div>
+                    <div class="conveniences blocks">Ванная комната</div>
+                    <div class="conveniences blocks">Шкаф</div>
+                    <div class="conveniences blocks">Минибар</div>
+                    <div class="conveniences blocks">LCD-телевизор</div>
+                    <div class="conveniences blocks">Утюг</div>
+                    <div class="conveniences blocks">Окно</div>
+                    <div class="conveniences blocks">Фен</div>
+                    <div class="conveniences blocks">2 зеркала</div>
+                    <div class="conveniences blocks">Вентилятор</div>
+                    <div class="conveniences blocks">Москитная сетка</div>
+                </div>
+        </div>
+    </body>
+</html>
